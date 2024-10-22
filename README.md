@@ -1,0 +1,2 @@
+Machine Learning and Image Processing with Python
+This repository contains several Python scripts for learning and implementing various machine learning algorithms using scikit-learn and image processing techniques using the cvzone module and OpenCV.
