@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score,recall_score,precision_score
 import pickle
 
-df=read_csv=pd.read_csv('heart_statlog_cleveland_hungary_final.csv')
+df=read_csv=pd.read_csv('datasets/heart_statlog_cleveland_hungary_final.csv')
 # print(df.head())
 # print(df.shape)
 # print(df['target'].value_counts())

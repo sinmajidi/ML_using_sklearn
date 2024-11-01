@@ -15,7 +15,7 @@ def check_model(y_train,y_test,y_pred_train,y_pred_test):
     return result
     
 # 1. Load the dataset
-df = pd.read_csv('predictive_maintenance_data.csv')
+df = pd.read_csv('/datasets/predictive_maintenance_data.csv')
 print(df.head())
 print(df.shape)
 print(df['FailureType'].value_counts())
